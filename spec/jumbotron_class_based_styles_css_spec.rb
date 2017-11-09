@@ -49,10 +49,10 @@ RSpec.describe "Styling the Jumbotron with class selectors" do
     if jumbotron_p["padding"]
       expect(jumbotron_p["padding"]).to match(/0\s?40px\s?0\s?40px/i)
     else
-      expect(jumbotron_p["padding-top"]).to match(/0/i)
       expect(jumbotron_p["padding-left"]).to match(/40px/i)
-      expect(jumbotron_p["padding-right"]).to match(/0px/i)
-      expect(jumbotron_p["padding-bottom"]).to match(/40px/i)
+      expect(jumbotron_p["padding-right"]).to match(/40px/i)
+      expect(jumbotron_p["padding-top"]).to match(/0/i)
+      expect(jumbotron_p["padding-bottom"]).to match(/0/i)
     end
 
     expect(jumbotron_p["line-height"]).to match(/40\s?px/i)        
