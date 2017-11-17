@@ -15,7 +15,12 @@ background-color: #e9ecef;
 text-align: center;
 padding: 10px
 }
-jumbotron h1 {font-size: 60px;
+.jumbotron h1 {font-size: 60px;
+}
+
+.jumbotron p{font-size: 20px;
+padding: 0 40px 0 40px;
+line-height: 40px;
 }
 
 
