@@ -21,7 +21,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -55,4 +55,3 @@ h3#header {
   text-decoration: none;
   color: #868e96;
 }
-
